@@ -2,7 +2,7 @@
 
 This project aims to show you how you can prototype and debug a 'back-end' [Atlas App Services](https://www.mongodb.com/docs/atlas/app-services/) application without having to develop code using the App Services Console. Additionally, you don't have to rebuild and re-deploy the application to the App Services runtime each time you need to test a change you've made. Instead, you can use your favourite local workstation tools, such as [Node.js](https://nodejs.org/), and [VS Code](https://code.visualstudio.com/) for the development and testing of code. The following video shows how easy it is to develop a back-end application locally:
 
-[![MongoDB Atlas App Svcs Template Back-End App Demo Video](img/videothumb.png)](https://youtu.be/OmL0GOUR9qA)
+[![MongoDB Atlas App Svcs Template Back-End App Demo Video](img/videothumb.png)](https://youtu.be/ScIa20X61iA)
 
 This approach doesn't just shield developers from each other when developing and testing the application's code on their workstations. It also means that each developer's deployed App Services runtime application is independent of any version of the runtime application deployed by another developer. Even when there are multiple developers, they don't clash with each other when they are all concurrently working on the same project codebase.
 
