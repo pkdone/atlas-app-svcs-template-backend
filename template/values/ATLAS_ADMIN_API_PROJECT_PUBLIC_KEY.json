@@ -1,0 +1,5 @@
+{
+    "name": "ATLAS_ADMIN_API_PROJECT_PUBLIC_KEY",
+    "value": "ATLAS_ADMIN_API_PROJECT_PUBLIC_KEY_SECRET",
+    "from_secret": true
+}

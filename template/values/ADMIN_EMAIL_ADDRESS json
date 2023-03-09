@@ -1,0 +1,5 @@
+{
+    "name": "ADMIN_EMAIL_ADDRESS",
+    "value": "ADMIN_EMAIL_ADDRESS_SECRET",
+    "from_secret": true
+}

@@ -1,0 +1,14 @@
+.env
+.DS_Store
+node_modules/
+.vscode
+build/**
+tmp/**
+*.log
+*.mongodb
+NOTES.txt
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*

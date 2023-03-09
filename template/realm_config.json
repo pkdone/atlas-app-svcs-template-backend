@@ -1,0 +1,7 @@
+{
+    "config_version": 20210101,
+    "name": "__APP_NAME__",
+    "location": "__LOCATION__",
+    "provider_region": "__REGION__",
+    "deployment_model": "LOCAL"
+}

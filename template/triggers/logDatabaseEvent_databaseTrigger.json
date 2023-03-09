@@ -1,0 +1,29 @@
+{
+    "name": "logDatabaseEvent_databaseTrigger",
+    "type": "DATABASE",
+    "config": {
+        "operation_types": [
+            "INSERT",
+            "UPDATE",
+            "REPLACE",
+            "DELETE"
+        ],
+        "database": "__DB_NAME__",
+        "collection": "persons",
+        "service_name": "mongodb-atlas",
+        "match": {},
+        "project": {},
+        "full_document": false,
+        "full_document_before_change": false,
+        "unordered": true,
+        "skip_catchup_events": true
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "PRIV_logDatabaseEvent"
+            }
+        }
+    }
+}

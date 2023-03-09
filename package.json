@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "initdb": "node src/initialize-database.js",
+    "build": "node src/convert-to-app-svcs-proj.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "fs-extra": "^10.1.0",
+    "dotenv": "^16.0.3",
+    "mongodb": "^4.14.0",
+    "npm": "^8.19.3"
+  }
+}

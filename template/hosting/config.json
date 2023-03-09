@@ -1,0 +1,12 @@
+{
+  "enabled": true,
+  "status": "setup_ok",
+  "default_domain": {
+    "provider_type": "aws",
+    "config": {
+      "app_default_domain": "DUMMY.mongodbstitch.com",
+      "default_error_path": "/index.html",
+      "default_response_code": "200"
+    }
+  }
+}

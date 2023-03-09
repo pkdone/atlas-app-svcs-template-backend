@@ -1,0 +1,21 @@
+{
+  "aws-eu-west-1": {"provider": "AWS", "region": "eu-west-1", "name": "Ireland (IE)", "id": "IE"},
+  "aws-us-west-2": {"provider": "AWS", "region": "us-west-2", "name": "Oregon (US-OR)", "id": "US-OR"},
+  "aws-ap-southeast-2": {"provider": "AWS", "region": "southeast-2", "name": "Sydney (AU)", "id": "AU"},
+  "aws-us-east-1": {"provider": "AWS", "region": "us-east-1", "name": "Virginia (US-VA)", "id": "US-VA"},
+  "aws-us-east-2": {"provider": "AWS", "region": "us-east-2", "name": "Ohio (US-VA)", "id": "US-VA"},
+  "aws-eu-central-1": {"provider": "AWS", "region": "eu-central-1", "name": "Frankfurt (DE-FF)", "id": "DE-FF"},
+  "aws-ap-south-1": {"provider": "AWS", "region": "ap-south-1", "name": "Mumbai (IN-MB)", "id": "IN-MB"},
+  "aws-ap-southeast-1": {"provider": "AWS", "region": "ap-southeast-1", "name": "Singapore (SG)", "id": "SG"},
+  "aws-sa-east-1": {"provider": "AWS", "region": "sa-east-1", "name": "São Paulo (BR-SP)", "id": "BR-SP"},
+  "azure-eastus2": {"provider": "AZURE", "region": "eastus2", "name": "Virginia (US-VA)", "id": "US-VA"},
+  "azure-westus": {"provider": "AZURE", "region": "westus", "name": "California (US-OR)", "id": "US-OR"},
+  "azure-westeurope": {"provider": "AZURE", "region": "westeurope", "name": "Netherlands (DE-FF)", "id": "DE-FF"},
+  "azure-southeastasia": {"provider": "AZURE", "region": "southeastasia", "name": "Singapore (SG)", "id": "SG"},
+  "azure-eastasia": {"provider": "AZURE", "region": "eastasia", "name": "Hong Kong (IN-MB)", "id": "IN-MB"},
+  "gcp-us-central1": {"provider": "GCP", "region": "us-central1", "name": "Ohio (US-VA)", "id": "US-VA"},
+  "gcp-us-east4": {"provider": "GCP", "region": "us-east4", "name": "Virginia (US-VA)", "id": "US-VA"},
+  "gcp-us-west1": {"provider": "GCP", "region": "us-west1", "name": "Oregon (US-OR)", "id": "US-OR"},
+  "gcp-europe-west1": {"provider": "GCP", "region": "europe-west1", "name": "Belgium (DE-FF)", "id": "DE-FF"},
+  "gcp-asia-south1": {"provider": "GCP", "region": "asia-south1", "name": "Mumbai (IN-MB)", "id": "IN-MB"}
+}

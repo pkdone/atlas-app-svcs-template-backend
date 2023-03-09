@@ -1,0 +1,5 @@
+{
+    "name": "ADMIN_TEL_NUM",
+    "value": "ADMIN_TEL_NUM_SECRET",
+    "from_secret": true
+}
