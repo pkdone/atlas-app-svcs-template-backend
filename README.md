@@ -1,8 +1,8 @@
 # Atlas App Services - Template Back-end Application Project
 
-This project aims to show you how you can prototype and debug a 'back-end' [Atlas App Services](https://www.mongodb.com/docs/atlas/app-services/) application without having to develop code using the App Services Console. Additionally, you don't have to rebuild and re-deploy the application to the App Services runtime each time you need to test a change you've made. Instead, you can use your favourite local workstation tools, such as [Node.js](https://nodejs.org/), and [VS Code](https://code.visualstudio.com/) for the development and testing of code.
+This project aims to show you how you can prototype and debug a 'back-end' [Atlas App Services](https://www.mongodb.com/docs/atlas/app-services/) application without having to develop code using the App Services Console. Additionally, you don't have to rebuild and re-deploy the application to the App Services runtime each time you need to test a change you've made. Instead, you can use your favourite local workstation tools, such as [Node.js](https://nodejs.org/), and [VS Code](https://code.visualstudio.com/) for the development and testing of code. The following video shows how easy it is to develop a back-end application locally:
 
-**TODO: Embed YouTube quick demo video**
+[![MongoDB Atlas App Svcs Template Back-End App Demo Video](img/videothumb.png)](https://youtu.be/OmL0GOUR9qA)
 
 This approach doesn't just shield developers from each other when developing and testing the application's code on their workstations. It also means that each developer's deployed App Services runtime application is independent of any version of the runtime application deployed by another developer. Even when there are multiple developers, they don't clash with each other when they are all concurrently working on the same project codebase.
 
@@ -96,7 +96,7 @@ Use the App Services console to view the logs of the deployed scheduled trigger 
 
 After each change, you can rapidly develop and test the app's code locally without redeploying. The diagram below highlights how code execution is supported both on the local workstation and in the remote App Services runtime. It also describes the role of the `build-deploy.sh` script in converting from one to another:
 
-![Build / Deployment Conversion Process](convert.png)
+![Build / Deployment Conversion Process](img/convert.png)
 
 The project code makes extensive use of 'modern' JavaScript (i.e. leveraging [ECMAScript 2020+ / ES11+ standards](https://en.wikipedia.org/wiki/ECMAScript_version_history)).
 
