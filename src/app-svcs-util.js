@@ -120,16 +120,6 @@ function PRIV_getAppSvsUtil() {
 
       return ({msg: "Internal error"});
     }
-
-
-    //
-    // Find a matching object from an array of objects (where the given key and its value matches) then
-    // return the value of a specifed property of the matching object
-    //
-    getValueFieldForFirstKeyOccurenceInArrayOfObjects(arrayOfObjects, matchKeyName, matchKeyValue, returnFieldName) {
-      const foundObject = arrayOfObjects.find(obj => obj[matchKeyName] === matchKeyValue);
-      return foundObject ? foundObject[returnFieldName] : null;
-    }
   }
 
 
