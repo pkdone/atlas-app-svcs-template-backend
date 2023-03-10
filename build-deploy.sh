@@ -33,7 +33,7 @@ realm-cli secrets create --app="${APP_NAME}" --name DB_NAME_SECRET --value "${DB
 
 # Upload 'custom' secrets required by the app
 for secret in "${SECRETS_LIST[@]}"; do
-	printf "Custom secret '${secret}_SECRET': "
+  printf "Custom secret '${secret}_SECRET': "
   realm-cli secrets create --app="${APP_NAME}" --name "${secret}_SECRET" --value "${secret}"
 done
 
