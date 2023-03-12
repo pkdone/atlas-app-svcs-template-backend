@@ -6,7 +6,7 @@ const {PRIV_getPersonsManager} = require("./persons-manager");
 
 
 // TEST WRAPPER  (similar to App Services' function test console, but for standalone Node.js)
-(async() => {
+(async () => {
   const appSvsUtil = PRIV_getAppSvsUtil();
   appSvsUtil.logStartTimestamp();
   let result = await GET_personInfo({query: {personId: 1}});
@@ -23,7 +23,7 @@ const {PRIV_getPersonsManager} = require("./persons-manager");
 // HTTP Query Parameters: 
 //  personId: MANDATORY
 //
-async function GET_personInfo(request, response){
+async function GET_personInfo(request, response) {
   const appSvsUtil = PRIV_getAppSvsUtil();
   ({request, response} = appSvsUtil.ensureRequestResponseExist(request, response));
 
@@ -50,7 +50,7 @@ async function GET_personInfo(request, response){
 // HTTP Body: 
 //  {personId: ??, firstName: ??, lastName: ??, dateOfBirth: ??}
 //
-async function POST_personInfo(request, response){
+async function POST_personInfo(request, response) {
   const appSvsUtil = PRIV_getAppSvsUtil();
   ({request, response} = appSvsUtil.ensureRequestResponseExist(request, response));
 
