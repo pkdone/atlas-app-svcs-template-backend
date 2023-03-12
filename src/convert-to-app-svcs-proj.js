@@ -44,7 +44,7 @@ const readline = require('readline');
 //     __CLUSTER_NAME__
 //     __DB_NAME__
 //
-(async() => {
+(async () => {
   try {
     const appName = process.env.APP_NAME;
     const sourceFolder = "src";
