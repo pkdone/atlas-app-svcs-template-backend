@@ -12,7 +12,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "npm install -g mongodb-realm-cli",
+	"postCreateCommand": "npm install -g mongodb-realm-cli"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
