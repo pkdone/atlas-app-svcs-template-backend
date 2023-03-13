@@ -120,7 +120,7 @@ async function PRIV_getHostEnv() {
 // Log the change event received from a database trigger.
 //
 async function PRIV_logDatabaseEvent(changeEvent) {
-  changeEvent = changeEvent ?? {changeEvent: "missing"};
+  changeEvent ??= {changeEvent: "missing"};
   console.log(`Database event triggered: ${JSON.stringify(changeEvent, null, 2)}`);
   return {logged: true};
 }
