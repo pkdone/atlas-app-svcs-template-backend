@@ -98,7 +98,7 @@ After each change, you can rapidly develop and test the app's code locally witho
 
 ![Build / Deployment Conversion Process](img/convert.png)
 
-The project code makes extensive use of 'modern' JavaScript (i.e. leveraging [ECMAScript 2020+ / ES11+ standards](https://en.wikipedia.org/wiki/ECMAScript_version_history)).
+The project code makes extensive use of 'modern' JavaScript (i.e. leveraging up to [ECMAScript 2021 / ES12 standards](https://en.wikipedia.org/wiki/ECMAScript_version_history)).
 
 The project optionally supports developing and running in [Development Containers](https://containers.dev/) in [VS Code](https://code.visualstudio.com/docs/devcontainers/containers) or in [GitHub Codespaces](https://docs.github.com/en/codespaces/overview).
 
